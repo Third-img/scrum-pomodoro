@@ -1,1 +1,30 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url(./assets/fonts/BebasNeue-Regular.ttf) format("truetype");
+}
+
+@theme {
+  /* Colors */
+  --color-carbon-black: #171717ff;
+  --color-black: #020202ff;
+  --color-carbon-black-2: #242424ff;
+  --color-grey-olive: #9b9b9bff;
+  --color-crimson-carrot: #fc4c03ff;
+
+  /* Fonts */
+  --font-bebas: "BebasNeue-Regular", monospace;
+}
+
+:root {
+  --carbon-black: #171717ff;
+  --black: #020202ff;
+  --carbon-black-2: #242424ff;
+  --grey-olive: #9b9b9bff;
+  --crimson-carrot: #fc4c03ff;
+}
+
+html {
+  background-color: var(--carbon-black);
+}
